@@ -18,5 +18,7 @@ public class Exercicio05 {
 		System.out.println("A soma de todos os números é: " + soma);
 		System.out.println("Sistema finalizado!");
 
+		leia.close();
+
 	}
 }
