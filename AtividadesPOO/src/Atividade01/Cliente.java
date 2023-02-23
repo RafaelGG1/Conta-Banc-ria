@@ -9,10 +9,10 @@ public class Cliente {
 		private String comanda;
 		private float conta;
 		
-		public Cliente(String nome, String cpf, int mesa, String comanda, float conta) {
+		public Cliente(String nome, String cpf, int sofa, String comanda, float conta) {
 			this.nome = nome;
 			this.cpf = cpf;
-			this.sofa = mesa;
+			this.sofa = sofa;
 			this.comanda = comanda;
 			this.conta = conta;
 		}
@@ -37,8 +37,8 @@ public class Cliente {
 			return sofa;
 		}
 
-		public void setMesa(int mesa) {
-			this.sofa = mesa;
+		public void setMesa(int sofa) {
+			this.sofa = sofa;
 		}
 
 		public String getComanda() {
